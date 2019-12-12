@@ -1,4 +1,4 @@
-function init (target) {
+function init (target) { //el target es la clase P
   return class extends target {
     nombre = 'Damian';
     apellido = 'Vigo';
