@@ -1,8 +1,8 @@
-let a: string = 'hola';
+let a = 'hola'; // type inference
 a = 'Holas';
 a = 2; // es tipo string no se le puede asignar un numero
 
-let b: number = 10;
+let b: number = 10; // type number
 b = a; // tipo numero no se le puede asignar ahora un string
 b = 20;
 b = 10 + 10;
@@ -18,10 +18,10 @@ anyValue = 'Hola';
 
 suma(1,'2')
 
-function sumaJavascriptVanill(num1, num2) {
+function sumaJavascriptVanilla(num1, num2) {
   return num1 + num2;
 }
 
-type dni = string; // type keyword. es un alias
+type dni = string; // type keyword. es un alias. Connotación semántica
 let dniNumber: dni = 2123
 let dniNumber2: dni = 2123
