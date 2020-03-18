@@ -1,6 +1,6 @@
 function logParameter(target, propertyName, index) {
   const metadatakey = `log_${propertyName}_parameters`;
-  if(Array.isArray(target[metadatakey])) {
+  if (Array.isArray(target[metadatakey])) {
     target[metadatakey].push(index);
   } else {
     target[metadatakey] = [index];

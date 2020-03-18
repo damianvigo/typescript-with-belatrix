@@ -27,5 +27,5 @@ class Persona {
 }
 
 const p = new Persona('Damian');
-p.name = 'Dami';
-const nameFromClass = p.name;
+p.name = 'Dami';  // Set: name => 'Vigo'
+const nameFromClass = p.name; // Get: name => 'Vigo'

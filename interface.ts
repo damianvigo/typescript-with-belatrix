@@ -9,8 +9,8 @@ interface Persona { // interface un tipo abstracto que representa una estructura
 }
 
 const persona: Persona = {
-  altura: 1.68,
-  edad: 27, 
+  altura: 1.8,
+  edad: 32, 
   nombre: 'Damian',
   apellido: 'Vigo',
   dni: 33450123
